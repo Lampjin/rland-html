@@ -1,0 +1,54 @@
+html{
+    
+    height: 100%;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header{
+    background-color: yellow;
+}
+
+.body{
+    background-color: gray;
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.aside{
+    background-color: green;
+}
+
+.main{
+    background-color: rgb(177, 72, 177);
+    flex-grow: 1;
+    
+}
+
+.footer{
+    background-color: rgb(255, 0, 0);
+}
+
+/* ---------------- */
+@media (min-width: 570px){
+    .body{    
+        flex-direction: row;
+    }
+    .main{
+        background-color: rgb(192, 109, 109);
+    }
+}
+@media (min-width: 768px){
+    .body{    
+        flex-direction: row;
+    }
+    .main{
+        background-color: skyblue;
+    }
+}
+
+

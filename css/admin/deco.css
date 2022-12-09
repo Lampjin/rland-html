@@ -1,0 +1,115 @@
+/* .deco-note{
+    display: inline-flex;
+    align-items: center;
+    /* vertical-align: middle; */
+/* }  */
+
+
+/* .deco-note::before{
+    content: '';
+    width: 24px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    /* padding-left: 24px; 얘는 더이상 배경이 못들어가게 된다*/
+
+    /* background: url(/admin/css/image/note.svg) no-repeat left center;
+    background-size: 16px 16px;
+} */ 
+
+/* .deco-note{
+    padding-left: 24px;
+    background: url(/admin/css/image/note.svg) no-repeat left center;
+    background-size:contain;
+} */
+/* .deco-note{
+    display:inline-flex;
+    align-items: center;
+}
+
+.deco-note:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+.deco-note::before{
+    content: '';
+    display:inline-block;
+    width: 16px;
+    height: 16px;
+    /* background: url(/admin/css/image/note.svg) no-repeat center;
+    background-size:contain;
+     */
+    /* background-color: rgb(0, 238, 255); */
+    /* mask-image:url(/admin/css/image/note.svg); */
+    /* -webkit-mask-image:url(/admin/css/image/note.svg); */
+    /* -webkit-mask-size: contain; */
+/* } */
+
+/* .deco-note:hover::before{
+    transition:1.5s;
+    background-color: yellow;
+} */ 
+.deco{
+    display:inline-flex;
+    align-items: center;
+}
+
+
+.deco::before{
+    content: '';
+    display:inline-block;
+    width: 16px;
+    height: 16px;
+    /* background: url(/admin/css/image/note.svg) no-repeat center;
+    background-size:contain;
+     */
+    background-color: rgb(0, 238, 255);
+    /* mask-image:url(/admin/css/image/note.svg); */
+   
+}
+.deco-note{
+    display:flex;
+    align-items: center;
+}
+.deco-note::before{
+    content: '';
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-color: rgb(29, 255, 8);
+    -webkit-mask-image:url(/css/image/note.svg);
+    -webkit-mask-size: contain;
+}
+
+.deco-note:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+
+
+
+.deco-category{
+    display: inline-flex;
+    align-items: center;
+}
+.deco-category:hover{
+   
+}
+.deco-category::before{
+    content: '';
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    /* padding-left: 24px; 얘는 더이상 배경이 못들어가게 된다*/
+    /*     
+    background: url(/admin/css/image/category.svg) no-repeat center;
+    background-size: 16px 16px; */
+    background-color:rgb(132, 0, 255);
+    -webkit-mask-image:url(/css/image/category.svg);
+    -webkit-mask-size: contain;
+    
+}
+/* ---------------dec util */
+.deco-blue::before{
+    background-color:blue;   
+}

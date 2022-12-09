@@ -1,0 +1,18 @@
+    :root{
+        /* 관리자 페이지에서 공통으로 사용하는 색상, 크기 등에 대한 변수들을 정의합니다. */
+
+        --color-bg: #1D4683;
+        /* 배경색 변수 하나 만듬 */
+        --color-text: #000;
+        --color-text-dar: #000;
+    }
+
+    body{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        /* 달라지는 것을 재정의하는 겁니다. 공통으로 적용한 것이 기본이 되는거죠 */
+        color: var(--color-text);
+    }

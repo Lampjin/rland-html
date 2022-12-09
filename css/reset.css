@@ -1,0 +1,20 @@
+/* 이 파일은 html태그가 가지고 있는 기본 스타일을 제거하기 위한 스타일 파일입니다.
+
+기존 태그의 스타일을 그대로 사용하고 싶지 않다.
+그게 reset.css */
+
+body,h1,h2,li,ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+.d-none{
+    display:none;
+}
